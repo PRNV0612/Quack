@@ -1,6 +1,6 @@
 # HID Device Detection for Rubber Ducky
 
-This was part of a research i was working on on USB HIDs and the potential security concerns regarding the same.
+This was part of a research I was working on on USB HIDs and the potential security concerns regarding the same.
 
 This C program detects Human Interface Devices (HID) on Windows and checks if the device has a specific Vendor ID and Product ID, indicative of a "Rubber Ducky." The code uses the SetupAPI to enumerate HID devices and opens each device to check its attributes.
 
